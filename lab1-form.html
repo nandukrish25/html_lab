@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>html_form</title>
+    </head>
+    <body>
+        <form>
+            <label for="name" >name</label>
+            <input type="text" id="name" placeholder="Enter your name" required maxlength="25"><br><br>
+
+            <label for="email">email</label>
+            <input type="text" id="email" value=" test@example.com " required autofocus><br><br>
+
+            <label for="pswrd">password</label>
+            <input type="password" id="pswrd" required maxlength="6" ><br><br>
+
+            <label for="ctgry">category</label>
+            <select id="ctgry" required  >
+                <option value="student">student</option>
+                <option value="employee">employee</option>
+                <option value="freelancer" selected>freelancer</option>
+
+            </select><br><br>
+
+            <label for="date">Event date</label>
+            <input type="date" id="date" required><br><br>
+
+
+
+         
+            <input type="radio" id="radio1" value="1 ticke" name="ticket" required>1 ticke
+            
+            <input type="radio" id="radio2" value="2 ticket" name="ticket">2 ticket
+            
+            <input type="radio" id="radio3" value="3 ticket" name="ticket">3 ticket<br><br>
+
+         
+            <label for="check">Online payment</label>
+            <input type="checkbox" id="check" required><br><br>
+
+            Notes: <br><br>
+            <textarea rows="10" cols="50" id="note" placeholder="add your notes here"></textarea><br><br>
+
+
+
+            <button>submit</button> 
+
+
+
+
+
+
+        </form>
+    </body>
+</html>
